@@ -1,0 +1,15 @@
+Id,StatType,Class,Base,StatRefer,Factor,#Memo
+1,MaxHP,0,20,Con,2.05,ex)캐릭터의 기본 최대 체력 = HPBase(100)+(Con)*20
+2,MaxMP,0,50,Wis,1.45,
+3,Atk,0,0,Str,1.24,
+4,Def,0,0,Con,0.108,
+5,SkillDmg,0,0,Int,0.02,
+6,Atk,0,0,Int,1.48,
+7,CriticalProb,0,5,Dex,0.216,"100이 100%를 기준, 100%이상 일 경우 무조건 발생"
+8,CriticalDmg,0,105,Str,0.434,100이 100%(1배) 200이 200%(2배)로 설정
+9,Accuracy,0,95,Dex,0.008,"100이 100%를 기준, 100%이상 일 경우 무조건 발생"
+10,Aviod,0,1,Dex,0.043,"100이 100%를 기준, 100%이상 일 경우 무조건 발생"
+11,MPDecrease,0,0,Wis,0.03,"100이 100%를 기준, 100%이상 일 경우 무조건 발생, 마나 사용 시 소모량 감소"
+12,HPRecovery,0,3,Con,0.0001,
+13,MPRecovery,0,1,Wis,0.0001,
+14,Atk,0,0,Dex,1.32,
