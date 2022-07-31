@@ -44,4 +44,7 @@ State Machine 추가
 
 ![image](https://user-images.githubusercontent.com/29656900/182018999-b2e82a33-919c-442b-bcbb-62ed90ffd4ce.png)
 
+Add State
+
+![image](https://user-images.githubusercontent.com/29656900/182019054-f3320e03-b249-49d1-9025-ec1e311d58d3.png)
 
