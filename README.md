@@ -1,4 +1,6 @@
 # UE5_LK
 
-캐릭터 Turn / LookUp 구현시 체크
-![image](https://user-images.githubusercontent.com/29656900/182009724-0fb0bfd8-b4a5-4582-8b3f-06a35c656081.png)
+캐릭터 Turn / LookUp 구현시 
+![image](https://user-images.githubusercontent.com/29656900/182010656-3a4372af-5173-4462-92ed-c379186c8a0e.png)
+
+
