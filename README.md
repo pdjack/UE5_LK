@@ -65,5 +65,6 @@ Transition Rule : Ground => JumpStart
 
 Transition Rule :  JumpStart => JumpLoop 
 
-![image](https://user-images.githubusercontent.com/29656900/182020748-c5afd673-dcbf-4ef4-ab41-ebe7906c0711.png)
+![image](https://user-images.githubusercontent.com/29656900/182020897-98d72323-30a1-4c88-8b0c-db7f6840727e.png)
+
 
