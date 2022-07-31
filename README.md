@@ -20,8 +20,18 @@
 
 [Character Animation]
 
-CurrentPawnSpeed 변수 추가
+AnimInstance C++ class 추가 - MyAnimInstance
+
+MyAnimInstance class 에 CurrentPawnSpeed 변수 추가
 ![image](https://user-images.githubusercontent.com/29656900/182016143-7e2c1154-df1f-4a8a-a945-f66ec659e942.png)
+
+
+AnimBlueprint 생성 후 Class Settings 에서 ParentClass에서 C++ 클래스 선택
+![image](https://user-images.githubusercontent.com/29656900/182018847-5ba6ef6a-760a-4ccb-9aab-eec4d05b2959.png)
+
+
+
+
 
 
 애니메이션 블루프린트에서 변수 표시
