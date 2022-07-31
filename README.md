@@ -53,16 +53,17 @@ Ground State
 ![image](https://user-images.githubusercontent.com/29656900/182019074-d4223119-108a-4ea6-b677-ccbe5f70a459.png)
 
 
+Add State (JumpStart, JumpLoop, JumpEnd)
 ![image](https://user-images.githubusercontent.com/29656900/182020836-d8274218-62e1-45cb-bfbd-2cafa66ea115.png)
 
 
 
-Ground => JumpStart
+Transition Rule : Ground => JumpStart
 
 ![image](https://user-images.githubusercontent.com/29656900/182020780-99cc715b-2662-4e12-92d2-a8fd1ff156fd.png)
 
 
-JumpStart => JumpLoop 
+Transition Rule :  JumpStart => JumpLoop 
 
 ![image](https://user-images.githubusercontent.com/29656900/182020748-c5afd673-dcbf-4ef4-ab41-ebe7906c0711.png)
 
