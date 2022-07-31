@@ -30,14 +30,6 @@ AnimBlueprint 생성 후 Class Settings 에서 ParentClass에서 C++ 클래스 �
 ![image](https://user-images.githubusercontent.com/29656900/182018847-5ba6ef6a-760a-4ccb-9aab-eec4d05b2959.png)
 
 
-Ground => JumpStart
-
-![image](https://user-images.githubusercontent.com/29656900/182020780-99cc715b-2662-4e12-92d2-a8fd1ff156fd.png)
-
-
-JumpStart => JumpLoop 
-
-![image](https://user-images.githubusercontent.com/29656900/182020748-c5afd673-dcbf-4ef4-ab41-ebe7906c0711.png)
 
 
 
@@ -62,4 +54,12 @@ Ground State
 
 
 
+Ground => JumpStart
+
+![image](https://user-images.githubusercontent.com/29656900/182020780-99cc715b-2662-4e12-92d2-a8fd1ff156fd.png)
+
+
+JumpStart => JumpLoop 
+
+![image](https://user-images.githubusercontent.com/29656900/182020748-c5afd673-dcbf-4ef4-ab41-ebe7906c0711.png)
 
