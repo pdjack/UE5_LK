@@ -39,6 +39,7 @@ AnimBlueprint 생성 후 Class Settings 에서 ParentClass에서 C++ 클래스 �
 
 
 State Machine 추가
+
 ![image](https://user-images.githubusercontent.com/29656900/182018988-8d8a242f-f3f4-48da-8494-7a7ec4ec6cb8.png)
 
 ![image](https://user-images.githubusercontent.com/29656900/182018999-b2e82a33-919c-442b-bcbb-62ed90ffd4ce.png)
