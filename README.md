@@ -161,3 +161,28 @@ void AMyCharacter::AttackHitCheck()
 
 }
 ```
+
+
+TakeDamage 받으면 Dead
+
+![image](https://user-images.githubusercontent.com/29656900/182615041-c13245ec-e4db-4f42-a777-1b23c1c19922.png)
+
+
+```
+float AMyCharacter::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	float FinalDamage = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+	
+	UE_LOG(LogTemp, Warning, TEXT("ACtor : %s took Damage : %f"), *GetName(), FinalDamage);
+	if (FinalDamage > 0.0f)
+	{
+		MyAnim->SetAnimDead();
+
+		FVector Dir = DamageCauser->GetActorLocation() - GetActorLocation();
+		Dir.Z = 0.0f;
+		FQuat LookAtRot = FRotationMatrix::MakeFromX(Dir).ToQuat();
+		SetActorRotation(LookAtRot);
+	}
+	return FinalDamage;
+}
+```
