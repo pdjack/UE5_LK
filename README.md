@@ -98,6 +98,8 @@ UE_LOG(LogTemp, Warning, TEXT("Hit ACtor Name : %s"), *HitResult.GetActor()->Get
 
 [collision]
 
+Add TraceChannel
+
 ![image](https://user-images.githubusercontent.com/29656900/182603030-0e8968d5-5cf4-4ab2-9871-ae354264edc3.png)
 
 Config/DefaultEngine.ini
