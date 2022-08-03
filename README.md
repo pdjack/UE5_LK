@@ -68,3 +68,18 @@ Transition Rule :  JumpStart => JumpLoop
 ![image](https://user-images.githubusercontent.com/29656900/182020897-98d72323-30a1-4c88-8b0c-db7f6840727e.png)
 
 
+
+
+
+
+
+
+
+Montage 플레이 적용 하려면 AnimBP 에 Default Slot 추가해야 한다.
+
+![image](https://user-images.githubusercontent.com/29656900/182529057-2fee1201-baef-45d3-a7fe-daebd3c6ccab.png)
+
+![image](https://user-images.githubusercontent.com/29656900/182529148-105da419-8900-4d9d-8612-2c5b54e39538.png)
+
+
+
