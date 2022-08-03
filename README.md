@@ -84,8 +84,9 @@ Montage 플레이 적용 하려면 AnimBP 에 Default Slot 추가해야 한다.
 
 ```
 if(GEngine)
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Debug %f"), 123.0f));
+
+if(GEngine)
 	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Debug")));
 		
 ```
-if(GEngine)
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Debug %f"), 123.0f));
