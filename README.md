@@ -188,3 +188,46 @@ float AMyCharacter::TakeDamage(float DamageAmount, FDamageEvent const& DamageEve
 	return FinalDamage;
 }
 ```
+
+
+[Weapon]
+
+MyCharacter.h 
+```
+public:
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
+UStaticMeshComponent* Weapon;
+	
+```
+MyCharacter.cpp
+```
+AMyCharacter::AMyCharacter()
+{
+...
+	Weapon = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("WEAPON"));
+	//StaticMesh'/Game/ModularRPGHeroesPolyart/Meshes/Weapons/Axe01SM.Axe01SM'
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> SM_WEAPON(TEXT("/Game/ModularRPGHeroesPolyart/Meshes/Weapons/Axe01SM.Axe01SM"));
+	if (SM_WEAPON.Succeeded())
+	{
+		Weapon->SetStaticMesh(SM_WEAPON.Object);
+	}
+...
+}
+
+void AMyCharacter::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+
+	MyAnim = Cast<UMyAnimInstance>(GetMesh()->GetAnimInstance());
+	MyAnim->OnAttackHitCheck.AddUObject(this, &AMyCharacter::AttackHitCheck);
+	
+	FName WeaponSocket(TEXT("hand_rSocket"));
+	if (GetMesh()->DoesSocketExist(WeaponSocket))
+	{
+
+		Weapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, TEXT("hand_rSocket"));
+	}
+}
+
+```
+```
