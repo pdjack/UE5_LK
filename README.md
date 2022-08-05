@@ -8,6 +8,17 @@
 
 
 3. MyCharacter cpp 파일에서 SpringArm , Camera 생성 및 설정
+```
+public :
+...
+	UPROPERTY(VisibleAnywhere, Category = Camera)
+	USpringArmComponent* SpringArm;
+
+	UPROPERTY(VisibleAnywhere, Category = Camera)
+	UCameraComponent* Camera;
+...
+```
+
 
 4. PlayerInput 구현 
 
